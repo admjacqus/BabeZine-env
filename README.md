@@ -10,6 +10,7 @@ These instructions will help you to install MAMP & Wordpress locally for a reall
 
 To build your testing environment, you will ned to install some bits & bobs locally, follow steps below. Once this is set-up, the repo has somewhere to live.
 
+* [WordPress](https://wordpress.org/download/) - Blog platform.
 * [MAMP](https://www.mamp.info/en/downloads/) - Local Websever.
 * [npm](https://docs.npmjs.com/getting-started/installing-node) - Build Tools.
 
