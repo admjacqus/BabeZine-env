@@ -1,4 +1,4 @@
-# MG-Blog
+# MG-Blog Turtorial :sparkles::turtle::sparkles:
 
 Wordpress environment for Theme development. 
 
@@ -96,6 +96,9 @@ In terminal run the following commands;
 
 ```$ cd ~/Sites/BabeZine
 $ git clone https://github.com/ishiiprints/MG-Blog.git```
+
+### Step 10: Replace
+Does git overwrite everything it needs to? I dunno I'm too tired now.
 
 
 
