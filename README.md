@@ -1,4 +1,4 @@
-# MG-Blog Turtorial :sparkles::turtle::sparkles:
+# Turtorial :sparkles::turtle::sparkles:
 
 Wordpress environment for Theme development. 
 
