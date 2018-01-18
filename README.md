@@ -8,7 +8,7 @@ These instructions will help you to install MAMP & Wordpress locally for a reall
 
 ### First time Set Up
 
-To build your testing environment, you will ned to install some bits & bobs locally, follow steps below. Once this is set-up, the repo has somewhere to live.
+To build your testing environment, you will ned to install some bits & bobs locally, follow steps below. 
 
 * [WordPress](https://wordpress.org/download/) - Blog platform.
 * [MAMP](https://www.mamp.info/en/downloads/) - Local Websever.
@@ -17,7 +17,7 @@ To build your testing environment, you will ned to install some bits & bobs loca
 
 
 #### Step 1: Get WP
-First we need the latest WordPress verison, click the link above and place the ZIP file in your 'Sites' folder. Pick wherever you want to keep your working directory, but it's 'Sites' for this tutorial.
+First we need the latest WordPress version, click the link above and place the ZIP file in your 'Sites' folder. Pick wherever you want to keep your working directory, but it's 'Sites' for this tutorial.
 
 #### Step 2: Get MAMP
 Download MAMP from the link above, install in your Applications folder. (Mac OS X 10.6.6 or later.) You'll probably need the admin password.
@@ -25,11 +25,11 @@ Download MAMP from the link above, install in your Applications folder. (Mac OS 
 #### Step 3: Launch MAMP
 Launch MAMP, Go into your Applications folder and click the MAMP folder. Click on the elephant MAMP icon, which will open MAMP control panel. Ignore MAMP Pro, stick to the grey, standard MAMP. This will open the MAMP control panel.
 
-#### Step 4: Setup Ports
+#### Step 4: Set up Ports
 Click Preferences, and make sure the Ports tab is selected. Ports should be set on the default: 8888 for Apache, and 8889 for MySQL. If not, either enter manually or click 'Set MAMP ports to default'.
 
-#### Step 5: Setup Document root
-Now, you’ll need to set the document root. The default document root is:
+#### Step 5: Set up Document root
+Now, you'll need to set the document root. The default document root is:
 
 ```Macintosh HD > Applications > MAMP > htdocs```
 
@@ -44,7 +44,7 @@ Click 'Start Servers' from the MAMP control panel. You should see in the top rig
 
 If the start page does not open automatically, just click 'Open start page'.
 
-#### Step 6: Setup a MySQL database
+#### Step 6: Set up a MySQL database
 There are two options of getting to phpMyAdmin:
 
 Visit the URL http://localhost:8888/phpMyAdmin
@@ -72,24 +72,24 @@ You should now have a folder within your working directory, in our case 'Sites',
 #### Step 8: The 5min Install
 OK, your server should still be up, if not click the 'Start Servers' button & wait for your servers to start up.
 
-You can now, in your prefered browser, go to  [https://localhost:8888/BabeZine](https://localhost:8888/BabeZine)
+You can now, in your preferred browser, go to  [https://localhost:8888/BabeZine](https://localhost:8888/BabeZine)
 
 Select your Language, then on the next screen, your Database info from Step 6.
 
 * Database Name = babeZine_db
 * User Name = root
 * Password = root
-* Tabel Prefix = _wp
+* Table Prefix = _wp
 
 Click "submit"
 
-Now, enter the Site Title and your prefered credentials. This is what you will use to log in to the WordPress dashboard later, so make a note of these. (Your site is local so don't worry about Privacy)
+Now, enter the Site Title and your preferred credentials. This is what you will use to log in to the WordPress dashboard later, so make a note of these. (Your site is local so don't worry about Privacy)
 
 * Site Title = Missguided
 
 Click "Install WordPress"
 
-Now, let's run through what we've done. You now have a local server running on your machine, which hosts a MySQL database and WordPress. The databse has stored your login credentials, and WordPress is at your beck-and-call. To create a carbon copy of the live Missgudied Blog, we will now replace some of the core WordPress files with those fo the real thing.
+Now, let's run through what we've done. You now have a local server running on your machine, which hosts a MySQL database and WordPress. The database has stored your login credentials, and WordPress is at your beck-and-call. To create a carbon copy of the live Missguided Blog, we will now replace some of the core WordPress files with those fo the real thing.
 
 #### Step 9: Clone the Repo
 
